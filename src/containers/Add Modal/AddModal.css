@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lateef|Pacifico|Permanent+Marker');
+
+.Content {
+
+    margin-top: 420px;
+    margin-left: 400px;
+}
+.para {
+
+    font-size: 40px;
+}
+.modalLabel {
+
+    color: white;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+.modalh2 {
+
+    color: white;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+.postPara {
+
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+@media (max-width: 535px) {
+
+.postPara {
+
+       margin-top: 40px;
+    }
+    .postButtonsDiv {
+
+        position: absolute;
+        top: 410px;
+        left: -180px;
+    }
+
+}
+
+@media (max-width: 767.5px) {
+
+    .triggerButton {
+
+        width: 758px;
+
+    }
+}

@@ -1,0 +1,14 @@
+.MoviesDiv {
+
+   
+    margin-top: 40px;
+    margin-left: 10px;
+}
+@media (max-width: 520px) {
+
+    .MoviesDiv {
+        
+        margin-top: 40px;
+        margin-left: 27px;
+    }
+}

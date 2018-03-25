@@ -1,0 +1,15 @@
+.GamesDiv {
+
+   
+    margin-top: 40px;
+    margin-left: 80px;
+}
+@media (max-width: 840px) {
+
+    .GamesDiv {
+        
+        margin-top: 40px;
+        margin-left: 50px;        
+        margin-right: 50px;
+    }
+}

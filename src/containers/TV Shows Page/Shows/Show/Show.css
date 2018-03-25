@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+
+
+.flip3D {
+
+    border-radius: 10px;
+    width: 200px;
+    height: 280px;
+    margin: 25px 25px;
+    float: left;
+    text-align: center;
+    /* cursor: pointer; */
+    overflow: hidden;
+
+}
+
+.img {
+    
+    z-index: 10;
+    position: relative;
+    max-width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.img:hover {
+    
+    border-radius: 10px;
+    transition: 0.8s;
+    transform: scale(1.25);
+}
+
+.flip3D:hover {
+
+    border-radius: 10px;
+    transition: 0.8s;
+    transform: scale(1.25);
+}
+
+.flip3D>.front {
+
+    color: white;
+    padding: 20px 20px;
+    position: absolute;
+    transform: perspective( 600px) rotateY( 0deg);
+    /* background: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    transition: transform .4s linear 0s;
+    overflow: hidden;
+}
+
+.flip3D>.back {
+    
+    color: white;
+    position: absolute;
+    transform: perspective( 600px) rotateY( 180deg);
+    /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    transition: transform .4s linear 0s;
+    overflow: hidden;
+}
+
+
+.flip3D:hover>.front {
+    transform: perspective( 600px) rotateY( -180deg);
+}
+
+.flip3D:hover>.back {
+    transform: perspective( 600px) rotateY( 0deg);
+}
+
+
+/* --------Back Elements Stylings -------- */
+
+.ParaWrapper {
+
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    margin: 70px 20px 20px 20px;
+    /* margin-top: 20px; */
+    padding: 20px;
+    position: absolute;
+    z-index: 50;
+}
+
+.runtimePara {
+
+    margin-left: 4px;
+}
+.yearPara {
+
+    margin-left: -4px;
+    margin-right: -5px;
+}
+.ratingsPara {
+
+   position: absolute;
+   padding-left: 13px;
+   margin-right: 15px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1175px) and (max-width: 1278px) {
+
+
+   
+    
+}
+
+@media screen and (min-width: 1075px) and (max-width: 1175px) {
+    .flip3D {
+        /* border-radius: 10px; */
+        /* width: calc(200px - 10px); */
+        margin: 40px;
+        width: calc(200px - 15px);
+        height: calc(280px - 15px);
+    }
+}
+
+@media screen and (max-width: 528px) {
+    .flip3D {
+        
+        margin-left: 60px;
+        margin-bottom: 30px;
+        width: 200px;
+        height: 280px;
+    }
+
+}

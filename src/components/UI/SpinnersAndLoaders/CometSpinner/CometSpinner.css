@@ -1,0 +1,36 @@
+
+.CometSpinner {
+
+        border-radius: 50px;
+        margin-left: 550px;
+        margin-top: 180px;
+        width: 400px;
+        height: 400px;
+}
+
+.adjustPara {
+
+    margin-top: 200px;
+}
+
+@media (max-width: 780px) {
+
+    .CometSpinner {
+
+        margin-left: 120px;
+        margin-top: 140px;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .CometSpinner {
+
+        margin-left: 65px;
+        margin-top: 200px;
+        width: 240px;
+        height: 240px;
+        }
+    }

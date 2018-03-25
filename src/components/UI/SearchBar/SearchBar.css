@@ -1,0 +1,51 @@
+.outerDiv {
+
+
+    margin-top: 100px;
+    margin-left: calc(14% - 40px);
+    /* margin-right: calc(14% - 50px); */
+}
+
+.searchInput {
+
+    border: white 2px solid;
+    background-color: transparent;
+    width: calc(90% - 45px);
+    height: 50px;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.searchInput:focus {
+
+
+    outline: 0;
+}
+
+.searchSvg {
+
+
+    position: relative;
+    float: right;
+    top: 2px;
+    right: 175px;
+    width: 45px;
+    height: 45px;
+}
+
+
+@media (max-width: 700px) {
+    
+    .outerDiv {
+
+        margin-left: calc(8% - 8px);
+
+    }
+
+    .searchInput {
+
+        width: calc(100% - 20px);
+    }
+}

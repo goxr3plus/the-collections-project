@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.background {
+
+    /* background-image: url('https://i.pinimg.com/originals/47/59/97/47599769fd1a3cea73d2a314d46f0659.jpg'); */
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: inherit;
+
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.overlay {
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: inherit;
+    overflow-x: scroll;
+}
+
+.errorH1 {
+
+    margin-top: 140px;
+    margin-left: calc(38% - 100px);
+    color: rgba(250, 250, 250, 1);
+    font-size: 120px;
+    font-family: 'Lobster', cursive;
+}
+
+.errorPara {
+
+    margin-top: 80px;
+    margin-left: calc(25% - 60px);
+    color: rgba(250, 250, 250, 1);
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+}
+
+
+.line {
+
+    margin-top: 4px;
+    margin-left: calc(38% - 100px);
+    color: white;
+    background: white;
+    width: 480px;
+    height: 8px;
+    border-radius: 20px;
+    border-bottom: 1px solid black;
+    position: absolute;
+    }
+
+
+@media (max-width: 720px) {
+
+   .errorH1 {
+    
+    font-size: 100px;
+    }
+
+    .line {
+
+        width: 400px;
+    }
+
+    .errorPara {
+
+   
+    font-size: 24px;
+}
+
+
+
+}
+
+@media (max-width: 520px) {
+
+   .errorH1 {
+
+    font-size: 80px;
+    }
+
+     .line {
+
+        width: 320px;
+    }
+
+    .errorPara {
+
+   
+    font-size: 20px;
+    }
+}
+
+.CardsDiv {
+
+     margin-left: calc(20% - 100px);
+}
+
+
+body {
+    background: #cfd8dc;
+}
+
+.cardcontainer {
+
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    font-weight: bold;
+
+    width: 180px;
+    height: 112.5px;
+
+    margin: 50px 20px;
+
+    border-radius: 10px;
+
+    perspective: 1400px;
+}
+
+.cardcontainer:hover {
+  
+
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.25);
+}
+
+.card {
+    position: relative;
+
+    height: 100%;
+
+    border-radius: 10px;
+
+    width: 100%;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+}
+
+.front {
+
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color: #fff;
+    
+}
+
+
