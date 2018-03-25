@@ -1,7 +1,16 @@
 # The Collections Project :
 Over the years I have watched tons of great shows, movies and played many great games, so I decided  to visualize all that data through this Web App I made with React JS :)
 
-##### Technologies used : 
+## Front End : React JS : https://reactjs.org/
+## Back End : Firebase : https://firebase.google.com/
+
+
+#### API's Used : 
+
+##### OMDb API [ Movies, TV Shows ] : http://www.omdbapi.com/
+##### GiantBomb API [ Games ] : https://www.giantbomb.com/api/
+
+#### Technologies used : 
 
 ##### JavaScript <ES6>
 ##### React JS v16 : https://reactjs.org/
