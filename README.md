@@ -5,12 +5,12 @@ Over the years I have watched tons of great shows, movies and played many great 
 ### Back End : Firebase : https://firebase.google.com/
 
 
-#### API's Used : 
+### API's Used : 
 
 ##### OMDb API [ Movies, TV Shows ] : http://www.omdbapi.com/
 ##### GiantBomb API [ Games ] : https://www.giantbomb.com/api/
 
-#### Technologies used : 
+### Technologies used : 
 
 ##### JavaScript <ES6>
 ##### React JS v16 : https://reactjs.org/
