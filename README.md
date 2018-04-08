@@ -12,7 +12,7 @@ Over the years I have watched tons of great shows, movies and played many great 
 
 ### Technologies used : 
 
-##### JavaScript <ES6>
+##### JavaScript (ES6)
 ##### React JS v16 : https://reactjs.org/
 ##### React Router v4 : https://www.npmjs.com/package/react-router
 ##### Axios [AJAX] : https://github.com/axios/axios
