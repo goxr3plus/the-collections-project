@@ -28,4 +28,4 @@ Over the years I have watched tons of great shows, movies and played many great 
 
 ## Demonstration : (click to play)
 
-[![the-collections-project](https://media.giphy.com/media/1P27or9NIVqiDmfZJD/giphy.gif)](https://vimeo.com/260570731 "The Collections Project Demonstration")
+[![the-collections-project](https://gph.is/2JW9hEH)](https://vimeo.com/260570731 "The Collections Project Demonstration")
